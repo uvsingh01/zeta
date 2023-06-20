@@ -110,7 +110,7 @@ const Client = () => {
         <SwiperSlide>
           <div className="py-3 border rounded-lg flex justify-center" >
             <Image
-              src="/Yesbank.webp"
+              src="/YesBank.webp"
               height="52"
               width="152"
               alt="no playstore"
