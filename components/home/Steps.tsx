@@ -37,7 +37,7 @@ const Steps = () => {
             </div>
           </div>
           <div className="text-center h-[76vw] md:h-[36vw]">
-            <video autoPlay muted loop src="/step.mp4" className="h-full inline w-auto max-w-none rounded-3xl" />
+            <video autoPlay muted loop src="/Step.mp4" className="h-full inline w-auto max-w-none rounded-3xl" />
           </div>
           </div>
         </SwiperSlide>
@@ -60,7 +60,7 @@ const Steps = () => {
             </div>
           </div>
           <div className="text-center h-[36vw]">
-            <video autoPlay muted loop src="/step.mp4" className="h-full w-auto max-w-none rounded-3xl" />
+            <video autoPlay muted loop src="/Step.mp4" className="h-full w-auto max-w-none rounded-3xl" />
           </div>
           </div>
         </SwiperSlide>
