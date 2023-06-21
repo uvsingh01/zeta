@@ -23,7 +23,7 @@ const Steps = () => {
           <div className="p-[10vw] text-center md:text-left">
             <p className="text-lg font-semibold w-fit inline-block mb-[2vw] text-white py-3 pr-6 pl-4 bg-blue-500 rounded-sm clipt">STEP 1</p>
             <p className="text-2xl md:text-3xl text-sky-300 font-extrabold mb-[2vw] leading-10">Download the App and Sign up as a ZET agent</p>
-            <div className="bg-sky-100 h-3 w-1/2 mb-6 rounded-xl  inline-block">
+            <div className="bg-sky-100 h-3 w-1/2 mb-6 rounded-xl inline-block">
               <div className="bg-blue-500 h-full rounded-xl animate"></div>
             </div>
             <div>
@@ -44,9 +44,9 @@ const Steps = () => {
         <SwiperSlide >
           <div className="flex  flex-col-reverse md:flex-row items-center">
           <div className="p-[10vw]  text-center md:text-left">
-            <p className="text-lg font-semibold w-fit mb-[2vw] text-white py-3 pr-6 pl-4 bg-blue-500 rounded-sm clipt">STEP 2</p>
+            <p className="text-lg font-semibold w-fit mb-[2vw] inline-block text-white py-3 pr-6 pl-4 bg-blue-500 rounded-sm clipt">STEP 2</p>
             <p className=" text-2xl md:text-3xl text-sky-300 font-extrabold mb-[2vw] leading-10">Register your customers and Recommend financial products</p>
-            <div className="bg-sky-100 h-3 w-1/2 mb-6 rounded-xl">
+            <div className="bg-sky-100 h-3 w-1/2 mb-6 rounded-xl inline-block">
               <div className="bg-blue-500 h-full rounded-xl animate"></div>
             </div>
             <div>
@@ -55,11 +55,11 @@ const Steps = () => {
                 height="52"
                 width="162"
                 alt="no playstore"
-                className="h-auto py-[0.5rem] px-[1rem] rounded-lg"
+                className="h-auto py-[0.5rem] px-[1rem] rounded-lg inline-block"
               />
             </div>
           </div>
-          <div className="text-center h-[36vw]">
+          <div className="text-center h-[76vw] md:h-[36vw]">
             <video autoPlay muted loop src="/Step.mp4" className="h-full inline w-auto max-w-none rounded-3xl" />
           </div>
           </div>
@@ -67,9 +67,9 @@ const Steps = () => {
         <SwiperSlide >
           <div className="flex  flex-col-reverse md:flex-row items-center">
           <div className="p-[10vw]  text-center md:text-left">
-            <p className="text-lg font-semibold w-fit mb-[2vw] text-white py-3 pr-6 pl-4 bg-blue-500 rounded-sm clipt">STEP 3</p>
+            <p className="text-lg font-semibold w-fit mb-[2vw] inline-block text-white py-3 pr-6 pl-4 bg-blue-500 rounded-sm clipt">STEP 3</p>
             <p className=" text-2xl md:text-3xl text-sky-300 font-extrabold mb-[2vw] leading-10">Start earning upto ₹ 1 Lakh every month </p>
-            <div className="bg-sky-100 h-3 w-1/2 mb-6 rounded-xl">
+            <div className="bg-sky-100 h-3 w-1/2 mb-6 rounded-xl inline-block ">
               <div className="bg-blue-500 h-full rounded-xl animate"></div>
             </div>
             <div>
@@ -78,11 +78,11 @@ const Steps = () => {
                 height="52"
                 width="162"
                 alt="no playstore"
-                className="h-auto py-[0.5rem] px-[1rem] rounded-lg"
+                className="h-auto py-[0.5rem] px-[1rem] inline-block rounded-lg"
               />
             </div>
           </div>
-          <div className="text-center h-[36vw]">
+          <div className="text-center h-[76vw] md:h-[36vw]">
             <video  autoPlay muted loop src="/Step.mp4" className="h-full inline w-auto max-w-none rounded-3xl" />
           </div>
           </div>
