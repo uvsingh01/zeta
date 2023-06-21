@@ -25,7 +25,7 @@ const Founders = () => {
           Few words from founders desk
         </p>
       </div>
-      <div data-aos="fade-up" className="grid gap-[2vw] mt-[4vw] grid-cols-[repeat(auto-fit,minmax(100px,_1fr))] sm:grid-cols-[repeat(auto-fit,minmax(150px,_1fr))] md:grid-cols-[repeat(auto-fit,minmax(200px,_1fr))] lg:grid-cols-[repeat(auto-fit,minmax(200px,_1fr))]" >
+      <div data-aos="fade-up" className="grid gap-[2vw] mt-[4vw] grid-cols-[repeat(auto-fit,minmax(200px,_1fr))]" >
         <div data-tilt data-tilt-scale="1.03" data-tilt-easing="cubic-bezier(0.03, 0.98, 0.52, 0.99)" data-tilt-max="8">
           <div className="flex flex-col justify-center p-[2rem] rounded-xl">
             <div>
@@ -39,8 +39,8 @@ const Founders = () => {
             </div>
             <div className="flex justify-between">
                 <div>
-                    <p className="text-2xl text-gray-700 mt-4">Manish Shara</p>
-                    <p className="text-xl text-gray-700 mt-1">Co-Founder & CEO</p>
+                    <p className="text-base md:text-2xl text-gray-700 mt-4">Manish Shara</p>
+                    <p className="text-base md:text-xl text-gray-700 mt-1">Co-Founder & CEO</p>
                 </div>
                 <div>
                 <Image
@@ -67,8 +67,8 @@ const Founders = () => {
             </div>
             <div className="flex justify-between">
                 <div>
-                    <p className="text-2xl text-gray-700 mt-4">Yash Desai</p>
-                    <p className="text-xl text-gray-700 mt-1">Co-Founder</p>
+                    <p className="text-base md:text-2xl text-gray-700 mt-4">Yash Desai</p>
+                    <p className="text-base md:text-xl text-gray-700 mt-1">Co-Founder</p>
                 </div>
                 <div>
                 <Image
@@ -95,8 +95,8 @@ const Founders = () => {
             </div>
             <div className="flex justify-between">
                 <div>
-                    <p className="text-2xl text-gray-700 mt-4">Lokesh Agarwal</p>
-                    <p className="text-xl text-gray-700 mt-1">CTO</p>
+                    <p className="text-base md:text-2xl text-gray-700 mt-4">Lokesh Agarwal</p>
+                    <p className="text-base md:text-xl text-gray-700 mt-1">CTO</p>
                 </div>
                 <div>
                 <Image
