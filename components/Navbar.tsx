@@ -18,16 +18,16 @@ const Navbar = () => {
       <Image src="/close.svg" height="36" width="36" alt="ZET" onClick={()=>setShow(false)} className={`${show?"":"hidden"} md:hidden`} />
 
         <div className={`${show?"":"hidden"} md:hidden flex flex-col justify-center items-center absolute w-full inset-x-0 bg-white mt-4 pt-16`}>
-        <Link href="/" className={`px-4 py-8 ${path==="/"? "text-blue-500":"text-gray-500"}`} >
+        <Link href="/" className={`px-4 py-8 ${path==="/"? "text-blue-500":"text-gray-500"}`}  onClick={()=>setShow(false)} >
           Home
         </Link>
-        <Link href="/about" className={`px-4 py-8 ${path==="/about"? "text-blue-500":"text-gray-500"}`}>
+        <Link href="/about" className={`px-4 py-8 ${path==="/about"? "text-blue-500":"text-gray-500"}`}  onClick={()=>setShow(false)}>
           About Us
         </Link>
-        <Link href="/" className={`px-4 py-8 ${path==="/partner-with-us"? "text-blue-500":"text-gray-500"}`}>
+        <Link href="/" className={`px-4 py-8 ${path==="/partner-with-us"? "text-blue-500":"text-gray-500"}`}  onClick={()=>setShow(false)}>
           Partner With Us
         </Link>
-        <Link href="/" className={`px-4 py-8 ${path==="/blog"? "text-blue-500":"text-gray-500"}`}>
+        <Link href="/" className={`px-4 py-8 ${path==="/blog"? "text-blue-500":"text-gray-500"}`}  onClick={()=>setShow(false)}>
           Blog
         </Link>
         <Link href="/" className="px-4 py-8">
