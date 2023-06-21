@@ -7,6 +7,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 const Founders = () => {
   useEffect(() => {
+    console.log("invoked");
+
     // @ts-ignore
     VanillaTilt.init();
     AOS.init({

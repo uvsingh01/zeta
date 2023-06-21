@@ -42,8 +42,8 @@ const Steps = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide >
-          <div className="flex">
-          <div className="p-[10vw]">
+          <div className="flex  flex-col-reverse md:flex-row items-center">
+          <div className="p-[10vw]  text-center md:text-left">
             <p className="text-lg font-semibold w-fit mb-[2vw] text-white py-3 pr-6 pl-4 bg-blue-500 rounded-sm clipt">STEP 2</p>
             <p className=" text-2xl md:text-3xl text-sky-300 font-extrabold mb-[2vw] leading-10">Register your customers and Recommend financial products</p>
             <div className="bg-sky-100 h-3 w-1/2 mb-6 rounded-xl">
@@ -65,8 +65,8 @@ const Steps = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide >
-          <div className="flex">
-          <div className="p-[10vw]">
+          <div className="flex  flex-col-reverse md:flex-row items-center">
+          <div className="p-[10vw]  text-center md:text-left">
             <p className="text-lg font-semibold w-fit mb-[2vw] text-white py-3 pr-6 pl-4 bg-blue-500 rounded-sm clipt">STEP 3</p>
             <p className=" text-2xl md:text-3xl text-sky-300 font-extrabold mb-[2vw] leading-10">Start earning upto ₹ 1 Lakh every month </p>
             <div className="bg-sky-100 h-3 w-1/2 mb-6 rounded-xl">

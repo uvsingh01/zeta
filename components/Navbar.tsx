@@ -13,7 +13,7 @@ const Navbar = () => {
         <Image src="/zet.svg" height="47" width="90" alt="ZET" />
       </Link>
 
-      <div className="">
+      <div className=" z-10">
       <Image src="/menu.svg" height="36" width="36" alt="ZET" onClick={()=>setShow(true)} className={`${show?"hidden":""} md:hidden`} />
       <Image src="/close.svg" height="36" width="36" alt="ZET" onClick={()=>setShow(false)} className={`${show?"":"hidden"} md:hidden`} />
 

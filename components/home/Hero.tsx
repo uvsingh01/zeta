@@ -6,7 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Hero = () => {
-  useEffect(() => {
+  useEffect(() => {  
     AOS.init({
       once:true,
       duration : 500,

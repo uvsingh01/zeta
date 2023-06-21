@@ -10,7 +10,6 @@ const Product = () => {
         // @ts-ignore
         VanillaTilt.init();
         AOS.init({
-
           duration : 500,
         });
       }, []);
