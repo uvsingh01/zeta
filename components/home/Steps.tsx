@@ -15,7 +15,7 @@ const Steps = () => {
         speed={1000}
         slidesPerView={1}
         loop={true}
-        // autoplay={{ delay: 9500 }}
+        autoplay={{ delay: 9500 }}
         modules={[Autoplay]}
       >
         <SwiperSlide >
