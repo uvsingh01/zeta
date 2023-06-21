@@ -53,7 +53,7 @@ const Footer = () => {
                 <Image src="linkedin.svg" height="32" width="32" alt="nothing" />
                 </Link>
                 <Link href="/" >
-                <Image src="Instagram.svg" height="32" width="32" alt="nothing" />
+                <Image src="instagram.svg" height="32" width="32" alt="nothing" />
                 </Link>
                 <Link href="/" >
                 <Image src="facebook.svg" height="32" width="32" alt="nothing" />
